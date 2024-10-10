@@ -1,0 +1,149 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button{
+   background-color: #ce3d3b;
+   border: none;
+   border-radius: 5px;
+   height: 30px;
+   width: 70px;
+}
+nav button a{
+    color: #fff;
+    text-decoration: none; 
+}
+nav button:hover{
+    background-color: #C1322F;
+    cursor: pointer;
+}
+
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.495), rgba(0,0,0,0.74), rgba(0,0,0,0.776)), url("./image/netflix.jpg");
+    /* background: linear-gradient(155deg, black, red); */
+}
+section{
+    margin-top: 5rem;
+}
+section h1{
+    color: #fff;
+    font-size: 50px;
+}
+section h1 p{
+    font-size: 20px;
+}
+section div{
+    color: #fff;
+    padding-bottom: 1rem;
+}
+section button{
+    background-color: #ce3d3b;
+   border: none;
+   border-radius: 5px;
+   height: 50px;
+   width: 200px;
+   color: #fff;
+   font-size: 25px;
+}
+section form input{
+    padding: 1rem;
+    background-color: #262A37;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+    border: thin solid rgba(255, 255, 255, 0.658);
+}
+section{
+    /* border: medium solid green; */
+    text-align: center;
+}
+.line{
+    border: medium solid red;
+    /* width: 80%; */
+    /* background-image: conic-gradient(155deg, red, blue 40%, green, rgba(128, 0, 128, 0.774) 60%, yellow); */
+    clip-path: ellipse(53% 100% at 50% 150%);
+}
+form{
+    padding-bottom: 7rem;
+}
+
+.trending h1{
+    color: #fff;
+    margin-right: 50rem;
+    margin-top: 7rem;
+
+}
+.accordion-button::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true" class="elj7tfr3 default-ltr-cache-1k5iouc-Icon-StyledAccordionIcon e164gv2o4"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>');
+    transform: scale(2.9);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true" class="elj7tfr3 default-ltr-cache-1k5iouc-Icon-StyledAccordionIcon e164gv2o4"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>');
+    transform: rotate(45deg) scale(2.9);
+}
+    /* .enjoy{
+        border: medium solid purple;
+        background-image: linear-gradient(155deg, rgb(26, 33, 69), rgb(32, 15, 25));
+        color: #fff;
+        border-radius: 10px;
+        width: 500px;
+        min-height: 50px;
+        padding: 8px 10px;
+      } */
+      
+svg{
+      left: 80%;
+      position: relative;
+      /* margin-top: 5em; */
+    }
+.body{
+   background: linear-gradient(155deg, rgb(26, 33, 69), rgb(32, 15, 25));
+   padding: 8px 10px;
+   border-radius: 10px;
+}
+.content-con{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: medium solid red; */
+    padding-top: 10px;
+}
+.content-con a{
+    color: #fff;
+}
+.eng p{
+   border: thin solid white;
+   width: 100px;
+   
+}
+.parent{
+    position: relative;
+}
+p ul{
+    display: none;
+    position: absolute;
+    border: medium solid green;
+}
+.hero a:hover{
+    background-color: blue;
+}
+
+.rat{
+    background-color: transparent;
+}
+.img-con{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    /* border: medium solid green; */
+    width: 80%;
+    margin: auto;
+}

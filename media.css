@@ -1,0 +1,15 @@
+@media (max-width:544px) {
+    section form input{
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:928px) {
+    .content-con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:564px) {
+    .content-con{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
